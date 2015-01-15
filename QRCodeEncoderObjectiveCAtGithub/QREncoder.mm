@@ -1,6 +1,13 @@
 
 #import "QREncoder.h"
 
+#include "QR_Encode.h"
+
+const int QR_ECLEVEL_AUTO =  0;
+const int QR_ECLEVEL_H =     QR_LEVEL_H;
+const int QR_ECLEVEL_M =     QR_LEVEL_M;
+const int QR_ECLEVEL_L =     QR_LEVEL_L;
+const int QR_ECLEVEL_Q =     QR_LEVEL_Q;
 
 @implementation QREncoder
 
